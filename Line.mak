@@ -1,5 +1,5 @@
 Line: Point.o Line.o LineClient.o
-	g++ Point.o Line.o LineClient.o -o Line
+	g++ -Wall Point.o Line.o LineClient.o -o Line
 
 Point.o: Point.cpp Point.h
 	g++ -Wall -c Point.cpp -o Point.o
